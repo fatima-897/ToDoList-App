@@ -1,5 +1,12 @@
+body {
+  background-image: url('./images/todo-bg.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 section#section {
-  border: 1px solid #808080;
+  border: 1px solid #4e4e4e;
   width: 60vw;
   margin: 2rem auto;
   display: flex;
@@ -47,7 +54,7 @@ input[type='text'] {
 
 input:checked + input {
   text-decoration: line-through;
-  color: #ccc;
+  color: #3b3b3b;
   font-style: italic;
 }
 
